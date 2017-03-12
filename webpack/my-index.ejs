@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title><%= htmlWebpackPlugin.options.title %></title>
+	</head>
+	<body>
+		<div id="app">
+			输出自定义属性：
+			<%= htmlWebpackPlugin.options.abc %>
+			<br />
+			
+			生成页面的名字：
+			<%= htmlWebpackPlugin.options.filename %>
+		</div>
+	</body>
+</html>
